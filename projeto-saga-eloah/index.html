@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAGA | Login</title>
+  <link rel="stylesheet" href="assets/css/login.css" />
+</head>
+<body>
+
+  <main>
+
+    <header class="logo-saga">
+      <img src="assets/icons/logo-saga-login-blue.png" alt="Logo SAGA" class="logo-img">
+    </header>
+    <!--fim do cabeçalho-->
+
+    <section class="full-container">
+
+      <div class="glass-esquerda">
+        <h2>BEM VINDO AO SAGA</h2>
+        <p>Bem-vindo ao SAGA! Somos o seu Sistema de Análise e Gestão de Atividade, prontos para transformar e gerir suas informações com segurança, acessibilidade e criatividade. O que acha de começar hoje por uma nova jornada ?</p>
+      </div>
+
+      <section class="login-direito">
+
+        <div class="logintop">
+          <h1 class="logintitle">Login</h1>
+
+          <button id="troca">
+            <img src="assets/icons/darkmode-moon-icon.svg" alt="Trocar Tema">
+          </button>
+        </div>
+
+        <img src="assets/icons/usuario-icon.svg" alt="Ícone de perfil" class="perfil">
+
+        <form id="areaform">
+
+          <section class="areaemail">
+            <div class="groupGeral">
+              <img src="assets/icons/login-email-icon.svg" alt="Ícone de email" class="input-icon">
+
+              <input type="email" id="email" placeholder="E-mail">
+            </div>
+
+            <p id="alertaEmail"></p>
+          </section>
+
+          <section class="areasenha">
+            <div class="groupGeral">
+              <img src="assets/icons/login-padlock-icon.svg" alt="Ícone de senha" class="input-icon">
+
+              <input type="password" id="senha" placeholder="Senha">
+            </div>
+
+            <p id="alertaSenha"></p>
+          </section>
+
+          <section class="lembrarsenha">
+            <input type="checkbox" id="lembreMe">
+            <label for="lembreMe">Lembre-me</label>
+          </section>
+
+          <button class="loginbtn">Login</button>
+
+        </form>
+
+      </section>
+
+    </section>
+
+  </main>
+
+  <script src="assets/javascript/login.js"></script>
+</body>
+</html>
